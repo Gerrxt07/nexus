@@ -6,14 +6,20 @@ description 'System für LSORP'
 version '1.0.0'
 
 server_scripts {
-    '@oxmysql/lib/MySQL.lua',
-    'server/*.lua'
-}        
+    'server/sv_*.lua'
+}
 
--- Füge hier deine anderen Ressourcen-Abhängigkeiten hinzu
+client_scripts {
+    'client/cl_*.lua'
+}
+
+shared_scripts {
+    '@oxmysql/lib/MySQL.lua',
+    'shared/sh_*.lua'
+}
+
 dependencies {
     'oxmysql'
 }
 
 lua54 'yes'
-server_only 'yes'
