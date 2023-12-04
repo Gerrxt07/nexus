@@ -1,8 +1,19 @@
+-- Project: Los Santos Online Roleplay (LSORP)
+-- Author: Gerrit S. | Gerrxt (Admin of LSORP)
+-- Last Date: 02.12.2023 (Created the file on 02.12.2023)
+-- Version: 1.0.0 (Current version)
+-- Official Documentation:
+-- Official Discord:
+-- Script Side: Shared
 Locales = {
     ['EN'] = {
-        ['script_start'] = '^2The Script started successfully!',
+        ['script_start'] = '^2The Script started successfully and you have the newest version!',
+        ['script_start_but_old'] = '^8The Script started successfully, but you have an old version! Please update it!',
+        ['script_no_check'] = '^8The Script started successfully, but the version check is not working!',
     },
     ['DE'] = {
-        ['script_start'] = '^2Das Script wurde erfolgreich gestartet!',
+        ['script_start'] = '^2Das Script wurde erfolgreich gestartet und es ist die aktuellste Version installiert!',
+        ['script_start_but_old'] = '^8Das Script wurde erfolgreich gestartet, aber es ist eine veraltete Version installiert! Bitte aktualisiere es!',
+        ['script_no_check'] = '^8Das Script wurde erfolgreich gestartet, aber die Versionsüberprüfung funktioniert nicht!',
     }
   }
