@@ -1,5 +1,4 @@
--- Project: Los Santos Online Roleplay (LSORP)
--- Author: Gerrit S. | Gerrxt (Admin of LSORP)
+-- Author: Gerrit S. | Gerrxt
 -- Last Date: 01.12.2023 (Created the file on 01.12.2023)
 -- Version: 1.0.0 (Current version)
 -- Official Documentation:
@@ -9,7 +8,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'Gerrxt'
-description 'System for LSORP'
+description 'Next-Gen FiveM Framework System'
 version '1.0.0'
 
 server_scripts {

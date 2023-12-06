@@ -1,5 +1,4 @@
--- Project: Los Santos Online Roleplay (LSORP)
--- Author: Gerrit S. | Gerrxt (Admin of LSORP)
+-- Author: Gerrit S. | Gerrxt
 -- Last Date: 02.12.2023 (Created the file on 02.12.2023)
 -- Version: 1.0.0 (Current version)
 -- Official Documentation:
