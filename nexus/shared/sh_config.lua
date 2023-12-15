@@ -16,15 +16,13 @@ nexus.admins = { -- Admins table | Please add your steam hex
     'STEAM_HEX_HERE', -- Example: 'steam:110000143f15cde' | Use https://steamid.pro/ and take the "FiveM, HEX"
 }
 
-
-
 -- Whitelist Config | Please follow the documentation to configurate the whitelist
 
 nexus.whitelist = {} -- Whitelist config table
 
-nexus.whitelist.status = "ON" -- Options: OFF, ON, MAINTENANCE (Only Admins can join) | Look in the Documentation for more informations 
+nexus.whitelist.status = true -- Options: false, true | Look in the Documentation for more informations 
 
-
+nexus.whitelist.experimental = true -- Options: false, true | Look in the Documentation for more informations
 
 -- MySQL Config | Please follow the documentation to install the MySQL database
 nexus.mysql = {} -- MySQL config table
